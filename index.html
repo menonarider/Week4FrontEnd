@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 4</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+</head>
+
+<body class="containter">
+    <br>
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="fomr-group">
+                        <label for="new-date"> Date</label>
+                        <input type="date" class="form-control" id="new-date">
+                    </div>
+                </div>
+            </div class="col-sm">
+            <div class="form-group">
+                <lable for="Location"> Location </lable>
+                <input type="text" class="form-control" id="new-location">
+                <div>
+                </div>
+            </div>
+        </div class="row">
+        <div class="col-sm">
+            <div class="form-group">
+                <label for="new-event"> Event Name </label>
+                <input type="text" class="form-control" id="new-event" placeholder="Event">
+            </div>
+        </div>
+    </div>
+    <div>
+        <button id="add" class="btn btn-primary from-control"> Add Event</button>
+    </div>
+    </div>
+    </div>
+
+    <table id="list" class="table table-striped">
+
+        <tr>
+            <th> Event Name</th>
+            <th> Date Created</th>
+            <th> Date</th>
+            <th> Location</th>
+            <th>Actions</th>
+
+        </tr>
+
+    </table>
+
+
+
+
+
+    <script src="code.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
